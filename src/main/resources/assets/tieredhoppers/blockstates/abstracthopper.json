@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "tieredhoppers:block/abstracthopper"
+    },
+    "facing=east": {
+      "model": "tieredhoppers:block/abstracthopper_side",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "tieredhoppers:block/abstracthopper_side"
+    },
+    "facing=south": {
+      "model": "tieredhoppers:block/abstracthopper_side",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tieredhoppers:block/abstracthopper_side",
+      "y": 270
+    }
+  }
+}

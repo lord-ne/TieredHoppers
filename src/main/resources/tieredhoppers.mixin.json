@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "example.lordne.tieredhoppers.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "IMixinTileEntity",
+    "IMixinHopperTileEntity"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "tieredhoppers.mixin-refmap.json"
+}
