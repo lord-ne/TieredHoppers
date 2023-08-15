@@ -23,3 +23,10 @@ run
 
 # Files from Forge MDK
 forge*changelog.txt
+
+/gradle/
+/log/
+/build/
+/.idea/
+/run/
+/.WIP*

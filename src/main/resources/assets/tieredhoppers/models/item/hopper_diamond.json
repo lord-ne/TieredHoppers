@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "tieredhoppers:item/hopper_diamond"
+  }
+}

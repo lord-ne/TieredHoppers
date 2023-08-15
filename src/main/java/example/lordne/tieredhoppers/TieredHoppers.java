@@ -1,8 +1,6 @@
 package example.lordne.tieredhoppers;
 
-import example.lordne.tieredhoppers.client.screen.AbstractHopperScreen;
 import example.lordne.tieredhoppers.common.block.ModBlocks;
-import example.lordne.tieredhoppers.common.container.ModContainers;
 import example.lordne.tieredhoppers.common.item.ModItems;
 import example.lordne.tieredhoppers.common.tileentity.ModTileEntities;
 import net.minecraftforge.common.MinecraftForge;
@@ -27,15 +25,8 @@ public class TieredHoppers {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModTileEntities.register(modEventBus);
-        ModContainers.register(modEventBus);
-
-        modEventBus.addListener(this::doClientStuff);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
-    }
-
-    private void doClientStuff(final FMLClientSetupEvent event) {
-
     }
 }

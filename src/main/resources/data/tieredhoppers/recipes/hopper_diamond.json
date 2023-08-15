@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XHX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:diamond"
+    },
+    "H": {
+      "item": "tieredhoppers:hopper_gold"
+    }
+  },
+  "result": {
+    "item": "tieredhoppers:hopper_diamond"
+  }
+}

@@ -2,9 +2,10 @@
   "required": true,
   "package": "example.lordne.tieredhoppers.mixin",
   "compatibilityLevel": "JAVA_8",
-  "client": [
+  "mixins": [
+    "IMixinHopperTileEntity",
     "IMixinTileEntity",
-    "IMixinHopperTileEntity"
+    "IMixinHopperBlock"
   ],
   "injectors": {
     "defaultRequire": 1

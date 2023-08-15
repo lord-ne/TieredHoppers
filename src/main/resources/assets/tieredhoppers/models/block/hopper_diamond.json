@@ -1,0 +1,10 @@
+{
+  "parent": "tieredhoppers:block/base_hopper",
+  "textures": {
+    "particle": "tieredhoppers:block/hopper_diamond_outside",
+    "top": "tieredhoppers:block/hopper_diamond_top",
+    "side": "tieredhoppers:block/hopper_diamond_outside",
+    "bottom": "tieredhoppers:block/hopper_diamond_bottom",
+    "inside": "tieredhoppers:block/hopper_diamond_inside"
+  }
+}

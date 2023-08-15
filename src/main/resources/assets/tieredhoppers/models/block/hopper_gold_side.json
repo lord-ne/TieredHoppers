@@ -1,0 +1,10 @@
+{
+  "parent": "tieredhoppers:block/base_hopper_side",
+  "textures": {
+    "particle": "tieredhoppers:block/hopper_gold_outside",
+    "top": "tieredhoppers:block/hopper_gold_top",
+    "side": "tieredhoppers:block/hopper_gold_outside",
+    "bottom": "tieredhoppers:block/hopper_gold_bottom",
+    "inside": "tieredhoppers:block/hopper_gold_inside"
+  }
+}

@@ -14,9 +14,17 @@ public final class ModTileEntities {
     public static final DeferredRegister<TileEntityType<?>> TE_TYPES
             = DeferredRegister.create(ForgeRegistries.TILE_ENTITIES, TieredHoppers.MOD_ID);
 
-    public static final RegistryObject<TileEntityType<AbstractHopperTileEntity>> ABSTRACTHOPPER
-            = TE_TYPES.register("abstracthopper",
-            () -> TileEntityType.Builder.of(AbstractHopperTileEntity::new, ModBlocks.ABSTRACTHOPPER.get()).build(null));
+    public static final RegistryObject<TileEntityType<GoldHopperTileEntity>> HOPPER_GOLD
+            = TE_TYPES.register("hopper_gold",
+            () -> TileEntityType.Builder.of(GoldHopperTileEntity::new, ModBlocks.HOPPER_GOLD.get()).build(null));
+
+    public static final RegistryObject<TileEntityType<DiamondHopperTileEntity>> HOPPER_DIAMOND
+            = TE_TYPES.register("hopper_diamond",
+            () -> TileEntityType.Builder.of(DiamondHopperTileEntity::new, ModBlocks.HOPPER_DIAMOND.get()).build(null));
+
+    public static final RegistryObject<TileEntityType<NetheriteHopperTileEntity>> HOPPER_NETHERITE
+            = TE_TYPES.register("hopper_netherite",
+            () -> TileEntityType.Builder.of(NetheriteHopperTileEntity::new, ModBlocks.HOPPER_NETHERITE.get()).build(null));
 
     public static void register(IEventBus eventBus) {
         TE_TYPES.register(eventBus);

@@ -1,5 +1,8 @@
 {
-  "block.tieredhoppers.abstracthopper": "Abstract Hopper (Block)",
-  "container.tieredhoppers.abstracthopper": "Abstract Hopper (Container)",
-  "item.tieredhoppers.abstracthopper": "Abstract Hopper (Item)"
+  "block.tieredhoppers.hopper_gold": "Gold Hopper",
+  "block.tieredhoppers.hopper_diamond": "Diamond Hopper",
+  "block.tieredhoppers.hopper_netherite": "Netherite Hopper",
+  "container.tieredhoppers.hopper_gold": "Gold Item Hopper",
+  "container.tieredhoppers.hopper_diamond": "Diamond Item Hopper",
+  "container.tieredhoppers.hopper_netherite": "Netherite Item Hopper"
 }
